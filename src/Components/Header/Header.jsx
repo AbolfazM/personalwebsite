@@ -6,9 +6,9 @@ const Header = () => {
         <div>
             <img className="Logo" src={Logo} alt="logo of website" />
             <ul className="Items">
-                <li>خدمات</li>
-                <li>کارها</li>
-                <li>ارتباط</li>
+                <li>service</li>
+                <li>works</li>
+                <li>contact</li>
             </ul>
         </div>
     );

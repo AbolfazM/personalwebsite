@@ -5,7 +5,7 @@
 
 body {
     background-color: var(--minidark);
-    direction: rtl;
+    direction: ltr;
 }
 
 
@@ -34,6 +34,7 @@ body {
 .Items {
     color: var(--light);
     display: flex;
+    justify-content: right;
     gap: 1.6rem;
     list-style: none;
     padding: 3rem 6rem;
