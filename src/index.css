@@ -14,7 +14,7 @@ body {
 :root {
     --minidark: rgb(29, 27, 27);
     --dark: rgb(20, 20, 20);
-    --purple: rgb(113, 42, 179);
+    --purple: rgb(54, 84, 184);
     --light: rgb(233, 224, 224);
 }
 
@@ -30,7 +30,6 @@ body {
     -webkit-animation: spin 4s linear infinite;
     -moz-animation: spin 4s linear infinite;
     animation: spin 4s linear infinite;
-    box-shadow: var(--dark) 4px 2px 24px;
 }
 
 @-moz-keyframes spin {
@@ -157,15 +156,30 @@ body {
 
 .HireMe {
     appearance: none;
-    height: 2.5rem;
-    width: 5.5rem;
+    height: 2.8rem;
+    width: 6rem;
     border-style: none;
-    border-radius: .2rem;
     cursor: pointer;
     background-color: var(--purple);
     color: var(--light);
     font-size: 1rem;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed';
     margin-left: 8%;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-top-left-radius: .8rem;
+    border-bottom-left-radius: .8rem;
+    border-top-right-radius: .8rem;
+}
+
+
+/* Me.jsx styles */
+
+.Me {
+    width: 25%;
+    border-radius: 50%;
+    position: absolute;
+    right: 10%;
+    border: 5px solid var(--light);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px;
+    margin-top: 4rem;
 }
