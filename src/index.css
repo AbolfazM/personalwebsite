@@ -15,7 +15,7 @@ body {
     --minidark: rgb(29, 27, 27);
     --dark: rgb(20, 20, 20);
     --purple: rgb(160, 74, 177);
-    --light: #fff;
+    --light: rgb(233, 224, 224);
 }
 
 
@@ -73,6 +73,10 @@ body {
 
 .Items li {
     cursor: pointer;
+}
+
+.Items li:hover {
+    border-bottom: .2rem solid var(--purple);
 }
 
 @media (max-width:400px) {
