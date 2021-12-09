@@ -4,7 +4,7 @@ import Logo from '../assists/logo.png';
 const Header = () => {
     return(
         <div>
-            <img src={Logo} alt="logo of website" />
+            <img className="Logo" src={Logo} alt="logo of website" />
             <ul className="Items">
                 <li>خدمات</li>
                 <li>کارها</li>
