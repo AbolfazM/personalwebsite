@@ -16,6 +16,7 @@ const Header = () => {
                 <li>Service</li>
                 <li>Works</li>
                 <li>Contact</li>
+                <li>Project</li>
             </ul>
             <img onClick={handleMenu} className="HamberMenu" src={Hamber} alt="hamberger menu" />
             {

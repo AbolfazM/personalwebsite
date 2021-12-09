@@ -69,6 +69,7 @@ body {
     list-style: none;
     padding: 3rem 8rem;
     font-family: 'Roboto Condensed', sans-serif;
+    font-variant: small-caps;
 }
 
 .Items li {
@@ -122,4 +123,16 @@ body {
 
 .Hamber li:hover {
     border-bottom: 1px solid var(--light);
+}
+
+
+/* Nav.jsx styles */
+
+.Name {
+    color: var(--light);
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: .22rem;
+    font-variant: small-caps;
+    font-size: 2rem;
+    padding: 7rem;
 }
