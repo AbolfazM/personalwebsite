@@ -1,13 +1,14 @@
 import React from 'react';
+import Logo from '../assists/logo.png';
 
 const Header = () => {
     return(
         <div>
-            <span>ABZA</span>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+            <img src={Logo} alt="logo of website" />
+            <ul className="Items">
+                <li>خدمات</li>
+                <li>کارها</li>
+                <li>ارتباط</li>
             </ul>
         </div>
     );

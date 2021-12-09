@@ -5,11 +5,36 @@
 
 body {
     background-color: var(--minidark);
+    direction: rtl;
 }
 
+
+/* root vars */
+
 :root {
-    --minidark: rgb(34, 32, 32);
+    --minidark: rgb(44, 41, 41);
     --dark: #000;
-    --purple: #000;
+    --purple: rgb(160, 74, 177);
     --light: #fff;
+}
+
+
+/* Header.jsx styles */
+
+.Logo {
+    color: var(--purple);
+    display: flex;
+    justify-content: left;
+    font-family: 'Baloo Bhaijaan 2' cursive;
+}
+
+
+/* header items */
+
+.Items {
+    color: var(--light);
+    display: flex;
+    gap: 1.6rem;
+    list-style: none;
+    padding: 1.5rem 6rem;
 }
