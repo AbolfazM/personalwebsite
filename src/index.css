@@ -68,7 +68,7 @@ body {
     gap: 1.6rem;
     list-style: none;
     padding: 3rem 8rem;
-    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .Items li {
@@ -113,6 +113,7 @@ body {
     position: relative;
     top: 20%;
     padding: 1rem;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .Hamber li:hover {
