@@ -14,7 +14,7 @@ body {
 :root {
     --minidark: rgb(29, 27, 27);
     --dark: rgb(20, 20, 20);
-    --purple: rgb(160, 74, 177);
+    --purple: rgb(113, 42, 179);
     --light: rgb(233, 224, 224);
 }
 
@@ -30,6 +30,7 @@ body {
     -webkit-animation: spin 4s linear infinite;
     -moz-animation: spin 4s linear infinite;
     animation: spin 4s linear infinite;
+    box-shadow: var(--dark) 4px 2px 24px;
 }
 
 @-moz-keyframes spin {
@@ -129,10 +130,42 @@ body {
 /* Nav.jsx styles */
 
 .Name {
-    color: var(--light);
+    color: #ffffff;
     font-family: 'Roboto Condensed', sans-serif;
     letter-spacing: .22rem;
     font-variant: small-caps;
     font-size: 2rem;
     padding: 7rem;
+}
+
+
+/* description */
+
+.Description {
+    color: var(--light);
+    font-family: 'Lato', sans-serif;
+    margin-left: 7rem;
+    font-size: 1rem;
+    line-height: 2rem;
+    position: absolute;
+    top: 56.5%;
+    letter-spacing: .17rem;
+}
+
+
+/* HireMe button */
+
+.HireMe {
+    appearance: none;
+    height: 2.5rem;
+    width: 5.5rem;
+    border-style: none;
+    border-radius: .2rem;
+    cursor: pointer;
+    background-color: var(--purple);
+    color: var(--light);
+    font-size: 1rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 8%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
