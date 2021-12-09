@@ -29,6 +29,13 @@ body {
     cursor: pointer;
 }
 
+@media (max-width:400px) {
+    .Logo {
+        width: 10%;
+        top: 3%;
+    }
+}
+
 
 /* header items */
 
@@ -64,7 +71,7 @@ body {
     .HamberMenu {
         display: block;
         position: absolute;
-        padding: 1rem;
+        padding: 1.3rem;
         right: 0;
     }
 }
