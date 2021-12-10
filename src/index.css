@@ -299,3 +299,10 @@ body {
     background-color: var(--dark);
     margin-top: 8rem;
 }
+
+
+/* Service__Icons */
+
+.Service__Icons :nth-child(3) {
+    width: 3%;
+}
