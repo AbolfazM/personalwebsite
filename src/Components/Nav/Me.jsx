@@ -1,12 +1,19 @@
 import React from 'react';
-import { Fragment } from 'react';
 import MyImg from '../assists/me.png';
+import Telegram from '../assists/telegram.png';
+import Spotify from '../assists/spotify.png';
+import Dribbble from '../assists/dribbble.png';
 
 const Me = () => {
     return(
-        <Fragment>
+        <div>
             <img className="Me" src={MyImg} alt="my img" />
-        </Fragment>
+            <div>
+                <img className="Telegram" src={Telegram} alt="telegram account" />
+                <img className="Spotify" src={Spotify} alt="spotify account" />
+                <img className="Dribbble" src={Dribbble} alt="dribbble account" />
+            </div>
+        </div>
     );
 }
 
