@@ -250,14 +250,38 @@ body {
     transform: rotate(360deg);
 }
 
+@media (max-width:400px) {
+    .Social {
+        width: 5%;
+    }
+}
+
 .Telegram {
     top: 69.5%;
+}
+
+@media (max-width:440px) {
+    .Telegram {
+        top: 56%;
+    }
 }
 
 .Spotify {
     top: 63%;
 }
 
+@media (max-width:440px) {
+    .Spotify {
+        top: 50%;
+    }
+}
+
 .Dribbble {
     top: 56.5%;
+}
+
+@media (max-width:440px) {
+    .Dribbble {
+        top: 44%;
+    }
 }
