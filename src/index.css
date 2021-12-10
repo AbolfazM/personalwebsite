@@ -17,6 +17,7 @@ body {
     --dark: rgb(20, 20, 20);
     --blue: rgb(54, 84, 184);
     --light: rgb(233, 224, 224);
+    --minilight: rgb(190, 182, 182);
 }
 
 
@@ -287,4 +288,14 @@ body {
     .Dribbble {
         top: 44%;
     }
+}
+
+
+/* Services.jsx component styles */
+
+.Service {
+    height: 55vh;
+    width: 100%;
+    background-color: var(--dark);
+    margin-top: 8rem;
 }
