@@ -10,7 +10,7 @@ const Nav = () => {
                 <h1>Abolfazl Moradi</h1>
             </div>
             <p className="Description">Freelancer developer on ReactJs and professional. <br />Working in Germany, Berlin.</p>
-            {/* <button className="HireMe">Hire Me</button> */}
+            <button className="HireMe">Hire Me</button>
         </div>
     );
 }

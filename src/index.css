@@ -205,6 +205,14 @@ body {
     transition: all linear .3s;
 }
 
+@media (max-width:400px) {
+    .HireMe {
+        top: 88%;
+        margin-left: 18%;
+        width: 65%;
+    }
+}
+
 
 /* Me.jsx styles */
 
