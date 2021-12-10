@@ -195,6 +195,28 @@ body {
 
 /* social icons styles */
 
-.Telegram {
+.Social {
     display: flex;
+    position: absolute;
+    right: 8%;
+    width: 1.6%;
+    cursor: pointer;
+}
+
+.Social:hover {
+    right: 8.2%;
+    transition: all linear .3s;
+    transform: rotate(360deg);
+}
+
+.Telegram {
+    top: 65%;
+}
+
+.Spotify {
+    top: 60%;
+}
+
+.Dribbble {
+    top: 55%;
 }

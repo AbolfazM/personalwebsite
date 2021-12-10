@@ -9,9 +9,9 @@ const Me = () => {
         <div>
             <img className="Me" src={MyImg} alt="my img" />
             <div>
-                <img className="Telegram" src={Telegram} alt="telegram account" />
-                <img className="Spotify" src={Spotify} alt="spotify account" />
-                <img className="Dribbble" src={Dribbble} alt="dribbble account" />
+                <img className="Social Telegram" src={Telegram} alt="telegram account" />
+                <img className="Social Spotify" src={Spotify} alt="spotify account" />
+                <img className="Social Dribbble" src={Dribbble} alt="dribbble account" />
             </div>
         </div>
     );
