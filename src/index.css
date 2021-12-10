@@ -15,7 +15,7 @@ body {
 :root {
     --minidark: rgb(29, 27, 27);
     --dark: rgb(20, 20, 20);
-    --blue: rgb(54, 84, 184);
+    --blue: rgb(54, 104, 212);
     --light: rgb(233, 224, 224);
     --minilight: rgb(190, 182, 182);
 }
@@ -26,8 +26,8 @@ body {
 .Logo {
     position: absolute;
     left: 7.5%;
-    top: 3.3%;
-    width: 4%;
+    top: 4%;
+    width: 3.3%;
     cursor: pointer;
     -webkit-animation: spin 4s linear infinite;
     -moz-animation: spin 4s linear infinite;
