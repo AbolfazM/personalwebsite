@@ -152,6 +152,10 @@ body {
     }
 }
 
+.Name span {
+    color: var(--blue);
+}
+
 
 /* description */
 
