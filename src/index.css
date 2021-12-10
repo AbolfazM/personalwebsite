@@ -24,7 +24,7 @@ body {
 .Logo {
     position: absolute;
     left: 7.5%;
-    top: 4.5%;
+    top: 3.3%;
     width: 4%;
     cursor: pointer;
     -webkit-animation: spin 4s linear infinite;
@@ -67,9 +67,12 @@ body {
     justify-content: right;
     gap: 1.6rem;
     list-style: none;
-    padding: 3rem 8rem;
+    padding: 2.5rem 8rem;
     font-family: 'Roboto Condensed', sans-serif;
     font-variant: small-caps;
+    font-size: 1.2rem;
+    height: 2.5vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 30px 28px;
 }
 
 .Items li {
@@ -142,7 +145,6 @@ body {
 
 .Description {
     color: var(--light);
-    font-family: 'Lato', sans-serif;
     margin-left: 7rem;
     font-size: 1rem;
     line-height: 2rem;
