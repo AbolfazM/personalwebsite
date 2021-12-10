@@ -141,6 +141,15 @@ body {
     padding: 7rem;
 }
 
+@media (max-width:400px) {
+    .Name {
+        font-size: 1.2rem;
+        position: absolute;
+        top: 34%;
+        z-index: 1;
+    }
+}
+
 
 /* description */
 
