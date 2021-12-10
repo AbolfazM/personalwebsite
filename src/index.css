@@ -116,6 +116,7 @@ body {
     width: 100%;
     background-color: var(--dark);
     text-align: center;
+    /* z-index: 999; */
 }
 
 .Hamber li {
@@ -143,10 +144,11 @@ body {
 
 @media (max-width:400px) {
     .Name {
-        font-size: 1.2rem;
+        font-size: 1rem;
         position: absolute;
         top: 34%;
-        z-index: 1;
+        right: 15%;
+        /* z-index: 1; */
     }
 }
 
@@ -161,6 +163,19 @@ body {
     position: absolute;
     top: 53%;
     letter-spacing: .17rem;
+}
+
+@media (max-width:400px) {
+    .Description {
+        top: 75%;
+        line-height: 1.3rem;
+        letter-spacing: .12rem;
+        width: 75%;
+        display: inline-block;
+        font-size: .8rem;
+        position: absolute;
+        right: 6%;
+    }
 }
 
 
