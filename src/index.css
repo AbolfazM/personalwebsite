@@ -150,7 +150,7 @@ body {
     font-size: 1rem;
     line-height: 2rem;
     position: absolute;
-    top: 56.5%;
+    top: 53%;
     letter-spacing: .17rem;
 }
 
@@ -163,6 +163,8 @@ body {
     width: 6.5rem;
     border-style: none;
     cursor: pointer;
+    top: 66%;
+    position: absolute;
     background-color: var(--blue);
     color: var(--light);
     font-size: 1rem;
@@ -183,13 +185,13 @@ body {
 /* Me.jsx styles */
 
 .Me {
-    width: 25%;
+    width: 28%;
     border-radius: 50%;
     position: absolute;
     right: 14%;
     border: 5px solid var(--light);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px;
-    margin-top: 4rem;
+    margin-top: 8rem;
 }
 
 
