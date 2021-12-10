@@ -248,6 +248,7 @@ body {
     right: 8.2%;
     transition: all linear .3s;
     transform: rotate(360deg);
+    width: 2%;
 }
 
 @media (max-width:400px) {
