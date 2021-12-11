@@ -322,6 +322,13 @@ body {
     font-size: 1.3rem;
 }
 
+@media (max-width:400px) {
+    .Service__Icons {
+        padding-right: 0;
+        display: block;
+    }
+}
+
 .Service__Icons span:hover {
     color: var(--light);
     transition: 1.2s;
