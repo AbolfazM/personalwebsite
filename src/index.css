@@ -342,3 +342,14 @@ img {
     font-weight: bold;
     line-height: 2rem;
 }
+
+
+/* Experience.jsx component */
+
+.ExperienceTitle {
+    color: var(--light);
+}
+
+.ExperienceDescription {
+    color: var(--light);
+}
