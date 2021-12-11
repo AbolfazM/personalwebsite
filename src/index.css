@@ -300,6 +300,15 @@ body {
     margin-top: 8rem;
 }
 
+@media (max-width:400px) {
+    .Service {
+        position: absolute;
+        top: 78%;
+        height: 120vh;
+        max-width: 100%;
+    }
+}
+
 
 /* Service__Icons */
 
@@ -343,6 +352,16 @@ img {
     line-height: 2rem;
 }
 
+@media (max-width:400px) {
+    .MyServices {
+        padding: 0;
+        font-size: 1rem;
+        width: 70%;
+        margin-left: 4.7rem;
+        margin-top: 20%;
+    }
+}
+
 
 /* Experience.jsx component */
 
@@ -360,6 +379,12 @@ img {
     position: absolute;
     top: 140%;
     margin-left: 10rem;
+}
+
+@media (max-width:400px) {
+    .ExperienceDescription {
+        margin-left: 0rem;
+    }
 }
 
 

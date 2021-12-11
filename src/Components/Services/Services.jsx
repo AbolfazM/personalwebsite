@@ -8,17 +8,17 @@ const Services = () => {
     return(
         <Fragment>
             <div className="Service">
-                <div className="Service__Icons">
+                {/* <div className="Service__Icons">
                     <span>facebook</span>
                     <span>Google</span>
                     <img className="Shoppify" src={Shoppify} alt="shopping service" />
                     <span>Shopiffy</span>
                     <span>tumblr.</span>
-                </div>
+                </div> */}
                 <div>
                     <Items />
-                    <Experience />
-                    <Cards />
+                    {/* <Experience /> */}
+                    {/* <Cards /> */}
                 </div>
             </div>
         </Fragment>
