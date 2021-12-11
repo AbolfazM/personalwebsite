@@ -313,6 +313,15 @@ body {
     font-size: 1.3rem;
 }
 
+.Service__Icons span:hover {
+    color: var(--light);
+    transition: 1.2s;
+    transform: rotateX(360deg);
+}
+
+
+/* باید کاری کنم وقتی روی نوشته ها هاور شد، رنگ شون کلا سفید بمونه */
+
 .Service__Icons span,
 img {
     cursor: pointer;
