@@ -374,8 +374,9 @@ img {
 .firstCard,
 .secondCard,
 .thirdCard {
-    height: 33vh;
+    height: 32vh;
     width: 15%;
     border-radius: .1rem;
     background-color: var(--blue);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px;
 }
