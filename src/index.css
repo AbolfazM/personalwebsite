@@ -17,7 +17,7 @@ body {
     --dark: rgb(20, 20, 20);
     --blue: rgb(54, 104, 212);
     --light: rgb(233, 224, 224);
-    --minilight: rgb(190, 182, 182);
+    --minilight: rgb(97, 96, 96);
 }
 
 
@@ -303,6 +303,22 @@ body {
 
 /* Service__Icons */
 
-.Service__Icons :nth-child(3) {
-    width: 3%;
+.Service__Icons {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding-right: 30rem;
+    padding-top: 5rem;
+    color: var(--minilight);
+    font-size: 1.3rem;
+}
+
+.Service__Icons span,
+img {
+    cursor: pointer;
+}
+
+.Shoppify {
+    display: flex;
+    width: 5%;
 }

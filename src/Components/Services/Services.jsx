@@ -8,7 +8,8 @@ const Services = () => {
                 <div className="Service__Icons">
                     <span>facebook</span>
                     <span>Google</span>
-                    <img src={Shoppify} alt="shopping service" />
+                    <img className="Shoppify" src={Shoppify} alt="shopping service" />
+                    <span>Shopiffy</span>
                     <span>tumblr.</span>
                 </div>
             </div>
