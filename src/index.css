@@ -304,7 +304,7 @@ body {
     .Service {
         position: absolute;
         top: 78%;
-        height: 120vh;
+        height: 130vh;
         max-width: 100%;
     }
 }
@@ -381,6 +381,14 @@ img {
     margin-left: 10rem;
 }
 
+@media (max-width:400px) {
+    .ExperienceTitle {
+        top: 50%;
+        left: 18.5%;
+        margin-left: 0;
+    }
+}
+
 .ExperienceDescription {
     color: var(--light);
     position: absolute;
@@ -391,6 +399,8 @@ img {
 @media (max-width:400px) {
     .ExperienceDescription {
         margin-left: 0rem;
+        top: 62%;
+        left: 20%;
     }
 }
 
@@ -403,6 +413,13 @@ img {
     justify-content: center;
 }
 
+@media (max-width:400px) {
+    .Cards {
+        display: block;
+        margin-left: 20%;
+    }
+}
+
 .firstCard,
 .secondCard,
 .thirdCard {
@@ -411,4 +428,13 @@ img {
     border-radius: .1rem;
     background-color: var(--blue);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px;
+}
+
+@media (max-width:400px) {
+    .firstCard,
+    .secondCard,
+    .thirdCard {
+        width: 80%;
+        margin-top: 1rem;
+    }
 }

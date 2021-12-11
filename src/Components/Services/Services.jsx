@@ -17,8 +17,8 @@ const Services = () => {
                 </div>
                 <div>
                     <Items />
-                    {/* <Experience /> */}
-                    {/* <Cards /> */}
+                    <Experience />
+                    <Cards />
                 </div>
             </div>
         </Fragment>
