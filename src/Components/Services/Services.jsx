@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 import Shoppify from '../assists/shopping.png';
-import ServiceItems from './ServiceItems';
+import Items from './Items';
 
 const Services = () => {
     return(
@@ -14,7 +14,7 @@ const Services = () => {
                     <span>tumblr.</span>
                 </div>
                 <div>
-                    <ServiceItems />
+                    <Items />
                 </div>
             </div>
         </Fragment>

@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 
-const ServiceItems = () => {
+const Items = () => {
     return(
         <Fragment>
             <p className="MyServices">Project Manager and Developer, specially in web development <br /> and FrontEnd developing.</p>
@@ -8,4 +8,4 @@ const ServiceItems = () => {
     );
 }
 
-export default ServiceItems;
+export default Items;
