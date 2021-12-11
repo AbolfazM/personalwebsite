@@ -2,6 +2,7 @@ import React, {Fragment} from 'react';
 import Shoppify from '../assists/shopping.png';
 import Items from './Items';
 import Experience from './Experience';
+import Cards from './Cards';
 
 const Services = () => {
     return(
@@ -17,6 +18,7 @@ const Services = () => {
                 <div>
                     <Items />
                     <Experience />
+                    <Cards />
                 </div>
             </div>
         </Fragment>

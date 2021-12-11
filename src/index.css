@@ -15,7 +15,7 @@ body {
 :root {
     --minidark: rgb(29, 27, 27);
     --dark: rgb(20, 20, 20);
-    --blue: rgb(54, 104, 212);
+    --blue: rgb(32, 96, 235);
     --light: rgb(233, 224, 224);
     --minilight: rgb(97, 96, 96);
 }
@@ -294,7 +294,7 @@ body {
 /* Services.jsx component styles */
 
 .Service {
-    height: 55vh;
+    height: 73.5vh;
     width: 100%;
     background-color: var(--dark);
     margin-top: 8rem;
@@ -351,14 +351,31 @@ img {
     display: flex;
     font-size: 4rem;
     position: absolute;
-    top: 119%;
+    top: 126%;
     margin-left: 10rem;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px;
 }
 
 .ExperienceDescription {
     color: var(--light);
     position: absolute;
-    top: 134%;
+    top: 140%;
     margin-left: 10rem;
+}
+
+
+/* Cards.jsx component */
+
+.Cards {
+    display: flex;
+    gap: 1.7rem;
+    justify-content: center;
+}
+
+.firstCard,
+.secondCard,
+.thirdCard {
+    height: 33vh;
+    width: 15%;
+    border-radius: .1rem;
+    background-color: var(--blue);
 }
