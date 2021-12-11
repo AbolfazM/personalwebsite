@@ -306,8 +306,8 @@ body {
 .Service__Icons {
     display: flex;
     justify-content: center;
-    gap: 3rem;
-    padding-right: 30rem;
+    gap: 4.5rem;
+    padding-right: 27rem;
     padding-top: 5rem;
     color: var(--minilight);
     font-size: 1.3rem;
@@ -330,4 +330,15 @@ img {
 .Shoppify {
     display: flex;
     width: 5%;
+}
+
+
+/* ServiceItems.jsx component */
+
+.MyServices {
+    color: var(--light);
+    font-size: 1.2rem;
+    padding: 5rem 19.7rem;
+    font-weight: bold;
+    line-height: 2rem;
 }
