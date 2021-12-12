@@ -8,12 +8,18 @@ const Cards = () => {
         <div className="Cards">
             <div className="firstCard">
                 <img src={Money} alt="icon of firstcard" />
+                <span>Money Producter</span>
+                <p>Discover More {'>>>'}</p>
             </div>
             <div className="secondCard">
                 <img src={Laptop} alt="icon of secondcard" />
+                <span>Money Producter</span>
+                <p>Discover More {'>>>'}</p>
             </div>
             <div className="thirdCard">
                 <img src={Bulb} alt="icon of secondcard" />
+                <span>Money Producter</span>
+                <p>Discover More {'>>>'}</p>
             </div>
         </div>
     );

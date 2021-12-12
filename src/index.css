@@ -463,3 +463,26 @@ img {
     position: relative;
     top: 38%;
 }
+
+.firstCard,
+.secondCard,
+.thirdCard {
+    color: var(--light);
+    font-weight: 600;
+}
+
+.firstCard,
+.secondCard,
+.thirdCard,
+span {
+    position: relative;
+    top: 55%;
+}
+
+.firstCard,
+.secondCard,
+.thirdCard,
+p {
+    position: relative;
+    top: 65%;
+}
