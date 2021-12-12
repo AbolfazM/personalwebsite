@@ -363,7 +363,7 @@ img {
         font-size: 1rem;
         width: 70%;
         margin-left: 4.7rem;
-        margin-top: 20%;
+        margin-top: 6%;
     }
 }
 
@@ -381,7 +381,7 @@ img {
 
 @media (max-width:400px) {
     .ExperienceTitle {
-        top: 50%;
+        top: 17%;
         left: 18.5%;
         margin-left: 0;
     }
@@ -397,7 +397,7 @@ img {
 @media (max-width:400px) {
     .ExperienceDescription {
         margin-left: 0rem;
-        top: 62%;
+        top: 22%;
         left: 20%;
     }
 }
@@ -415,6 +415,7 @@ img {
     .Cards {
         display: block;
         margin-left: 20%;
+        margin-top: 40%;
     }
 }
 
