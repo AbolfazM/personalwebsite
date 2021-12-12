@@ -7,7 +7,7 @@ import Dribbble from '../assists/dribbble.png';
 const Me = () => {
     return(
         <div>
-            <img className="Me" src={MyImg} alt="my img" />
+            <img data-aos="fade-down" className="Me" src={MyImg} alt="my img" />
             <div>
                 <img className="Social Telegram" src={Telegram} alt="telegram account" />
                 <img className="Social Spotify" src={Spotify} alt="spotify account" />
