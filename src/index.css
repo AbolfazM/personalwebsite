@@ -440,5 +440,22 @@ img {
 }
 
 .firstCard img {
-    width: 25%;
+    margin-left: 10%;
+    width: 20%;
+    position: relative;
+    top: 38%;
+}
+
+.secondCard img {
+    margin-left: 10%;
+    width: 17%;
+    position: relative;
+    top: 38%;
+}
+
+.thirdCard img {
+    margin-left: 10%;
+    width: 17%;
+    position: relative;
+    top: 38%;
 }
