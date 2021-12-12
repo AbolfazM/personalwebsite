@@ -324,8 +324,7 @@ body {
 
 @media (max-width:400px) {
     .Service__Icons {
-        padding-right: 0;
-        display: block;
+        display: none;
     }
 }
 
@@ -344,8 +343,7 @@ img {
 }
 
 .Shoppify {
-    display: flex;
-    width: 5%;
+    display: none;
 }
 
 
