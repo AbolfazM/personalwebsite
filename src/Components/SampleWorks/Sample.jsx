@@ -2,6 +2,7 @@ import React from 'react';
 
 const Sample = () => {
     return(
+        // data-aos="fade-down"
         <div>
             <div className="Sample">
                 <h3>Outwork, successful <br />client products</h3>
