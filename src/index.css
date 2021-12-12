@@ -426,8 +426,12 @@ img {
     height: 32vh;
     width: 15%;
     border-radius: .1rem;
-    background-color: var(--blue);
+    background-color: var(--minidark);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px;
+}
+
+.firstCard {
+    background-color: var(--blue);
 }
 
 @media (max-width:400px) {
