@@ -420,7 +420,8 @@ img {
 .firstCard,
 .secondCard,
 .thirdCard {
-    height: 32vh;
+    height: 30vh;
+    margin-top: 1.2%;
     width: 15%;
     border-radius: .1rem;
     background-color: var(--minidark);
