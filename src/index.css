@@ -484,3 +484,22 @@ p {
     position: relative;
     top: 65%;
 }
+
+
+/* Sample.jsx component */
+
+.Sample {
+    margin-left: 12%;
+    color: var(--light);
+    font-size: 1.4rem;
+    margin-top: 11rem;
+}
+
+.SampleDescription {
+    display: flex;
+    justify-content: center;
+    margin-left: 35%;
+    color: var(--minilight);
+    font-size: 1rem;
+    margin-top: -2.5rem;
+}
