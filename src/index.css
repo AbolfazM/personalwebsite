@@ -316,7 +316,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 4.5rem;
-    padding-right: 27rem;
+    padding-right: 12rem;
     padding-top: 5rem;
     color: var(--minilight);
     font-size: 1.3rem;
