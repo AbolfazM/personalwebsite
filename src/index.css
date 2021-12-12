@@ -438,3 +438,7 @@ img {
         margin-top: 1rem;
     }
 }
+
+.firstCard img {
+    width: 25%;
+}
